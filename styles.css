@@ -407,3 +407,26 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.conteiner-tot-htw {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/DALL·E\ 2024-10-27\ 14.57.57\ -\ A\ variety\ of\ trains\ from\ different\ categories\ and\ styles\ displayed\ together\,\ showing\ diverse\ types\ including\ a\ high-speed\ bullet\ train\,\ a\ cl.webp);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-hot {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/DALL·E\ 2024-10-27\ 15.06.26\ -\ A\ single\ train\ shown\ in\ a\ side\ view\,\ artistically\ transitioning\ from\ an\ early\ steam\ locomotive\ on\ the\ left\ to\ a\ modern\ high-speed\ electric\ t.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
