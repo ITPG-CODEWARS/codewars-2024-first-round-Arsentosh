@@ -2,7 +2,30 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: var(--slate-color);
+  overflow-x: hidden;
 }
+
+/* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+} */
 
 a {
   text-decoration: none;
@@ -43,15 +66,16 @@ a:focus {
 .header-container {
   display: flex;
   align-items: center;
+  width: 90%;
 }
 
 .header {
   /* position: fixed;
   width: 100%;
   background-color: #fcfcfc;
-  z-index: 1;
+  z-index: 1; */
   padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -103,8 +127,7 @@ a:focus {
   /* background-color: var(--navi-blue-color); */
   font-style: normal;
   font-weight: 700;
-  /* font-size: 56px; */
-  font-size: 36px;
+  font-size: 56px;
   /* line-height: 107%; */
   line-height: 111%;
   letter-spacing: 0.02em;
@@ -124,11 +147,22 @@ a:focus {
 
 /*!-- --------------the newest trains section   */
 
+.new-trains-title {
+  font-size: 36px;
+}
+
 .new-trains-container {
   display: flex;
   padding: 4px;
   flex-direction: column;
   align-items: center;
+}
+
+.new-trains-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
 }
 
 .new-trains-item {
@@ -139,6 +173,14 @@ a:focus {
   justify-content: space-between;
   border-radius: 12px;
   margin-bottom: 40px;
+}
+
+.new-train-name {
+  color: #ffffff;
+}
+
+.new-train-par {
+  color: #ffffff;
 }
 
 .more-info-link.but {
@@ -195,6 +237,52 @@ a:focus {
   background-size: cover;
 }
 
+/*! --------=====-++++++++++TRAIN PAGE */
+
+.new-trains-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.new-trains-item.ukr {
+  height: 400px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/cce1edc91a90de7f4537a691dee4ca51.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-trains-item.ice {
+  height: 400px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/ICE_3_Oberhaider-Wald-Tunnel.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-trains-item.talgo {
+  height: 400px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/productos-talgo-350.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*! ---------------Discover more container */
 
 .discover-more-container {
@@ -211,6 +299,7 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 98%;
 }
 
 .discover-more-link.link {
@@ -229,4 +318,92 @@ a:focus {
 .discover-more-link.link:hover {
   background-color: #0b2374;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*! +++++++++++++++++++++++ Škoda RegioPanter PAGE */
+
+.about-train {
+  color: #ffffff;
+}
+
+.about-train {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.skoda-train {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/ČD_Class_641_in_Adamov.jpeg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stadler-train {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/SBB_RABe_511_als_S12_in_Effretikon_\(cropped\).jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bdz-train {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/snowBdz.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ukr-train {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/ukr-train.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ice-train {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/ice-train.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.talgo-train {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/talgo-train.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

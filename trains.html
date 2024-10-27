@@ -9,98 +9,137 @@
   <body>
     <!-- -----------------------------------HEADER -->
 
-    <header>
+    <header class="header">
       <!-- NAV -->
-      <nav>
-        <a href="./index.html">BULTrains</a>
-        <ul>
-          <li><a href="./trains.html">Trains</a></li>
-          <li><a href="./howTheyWork.html">How trains work</a></li>
-          <li><a href="./aboutMe.html">About me</a></li>
-          <li><a href="./trainsHistory.html">History</a></li>
-        </ul>
-      </nav>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo-link link current" href="./index.html"
+            ><img
+              class="logo"
+              src="./images/bultrains-favicon-color (1).svg"
+              alt=""
+            />BULTrains</a
+          >
+
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link current link" href="./trains.html">Trains</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current link" href="./howTheyWork.html"
+                >How trains work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current link" href="./aboutMe.html"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current link" href="./trainsHistory.html"
+                >History</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <h1>Škoda RegioPanter</h1>
-    <p>
-      The Škoda RegioPanter is a state-of-the-art electric multiple unit (EMU)
-      designed for regional and intercity travel. Bulgaria has contracted Škoda
-      Group to supply up to 25 of these units, which will enhance passenger
-      comfort with features such as air conditioning, ergonomic seating, and
-      on-board Wi-Fi. The trains will also include advanced safety systems and
-      are designed to be partially low-floor for improved accessibility.
-    </p>
+    <ul class="new-trains-list list">
+      <li class="new-trains-item skoda">
+        <h1 class="new-train-name">Škoda RegioPanter</h1>
+        <p class="new-train-par">
+          The Škoda RegioPanter is a state-of-the-art electric multiple unit
+          (EMU) designed for regional and intercity travel. Bulgaria has
+          contracted Škoda Group to supply up to 25 of these units, which will
+          enhance passenger comfort with features such as air conditioning,
+          ergonomic seating, and on-board Wi-Fi. The trains will also include
+          advanced safety systems and are designed to be partially low-floor for
+          improved accessibility.
+        </p>
 
-    <button>
-      <a href="./trainsInfo/train1Skoda.html">More information</a>
-    </button>
+        <a class="more-info-link but" href="./trainsInfo/train1Skoda.html"
+          >More information</a
+        >
+      </li>
 
-    <h1>Stadler KISS Double-Decker Trains</h1>
+      <li class="new-trains-item stadler">
+        <h1 class="new-train-name">Stadler KISS Double-Decker Trains</h1>
 
-    <p>
-      Bulgaria has ordered seven double-decker electric trains from Stadler's
-      KISS series, with an option for three additional units. These
-      zero-emission trains will feature a minimum of 300 seats, with over 10%
-      reserved for passengers with reduced mobility. The contract emphasizes
-      modern design and environmental sustainability, with delivery expected by
-      2026.
-    </p>
+        <p class="new-train-par">
+          Bulgaria has ordered seven double-decker electric trains from
+          Stadler's KISS series, with an option for three additional units.
+          These zero-emission trains will feature a minimum of 300 seats, with
+          over 10% reserved for passengers with reduced mobility. The contract
+          emphasizes modern design and environmental sustainability, with
+          delivery expected by 2026.
+        </p>
 
-    <button>
-      <a href="./trainsInfo/train2Stadler.html">More information</a>
-    </button>
+        <a class="more-info-link but" href="./trainsInfo/train2Stadler.html"
+          >More information</a
+        >
+      </li>
 
-    <h1>BDZ Fast Train (Бърз Влак)</h1>
+      <li class="new-trains-item bdz">
+        <h1 class="new-train-name">BDZ Fast Train (Бърз Влак)</h1>
 
-    <p>
-      As part of ongoing modernization efforts, the BDZ Fast Train service has
-      introduced new rolling stock that enhances connectivity between major
-      cities. These trains are designed for efficiency and comfort, catering to
-      both regional commuters and long-distance travelers.
-    </p>
+        <p class="new-train-par">
+          As part of ongoing modernization efforts, the BDZ Fast Train service
+          has introduced new rolling stock that enhances connectivity between
+          major cities. These trains are designed for efficiency and comfort,
+          catering to both regional commuters and long-distance travelers.
+        </p>
 
-    <button>
-      <a href="./trainsInfo/train3BDZ.html">More information</a>
-    </button>
+        <a class="more-info-link but" href="./trainsInfo/train3BDZ.html"
+          >More information</a
+        >
+      </li>
 
-    <h1>Intercity+</h1>
-    <p>
-      Operated by Ukrzaliznytsia, Ukraine’s Intercity+ trains provide high-speed
-      connections between cities such as Kyiv, Lviv, and Odesa. With speeds of
-      up to 160 km/h, Intercity+ offers amenities like climate control,
-      comfortable seating, and onboard refreshments, making it a convenient and
-      affordable choice for domestic travelers.
-    </p>
+      <li class="new-trains-item ukr">
+        <h1 class="new-train-name">Intercity+</h1>
+        <p class="new-train-par">
+          Operated by Ukrzaliznytsia, Ukraine’s Intercity+ trains provide
+          high-speed connections between cities such as Kyiv, Lviv, and Odesa.
+          With speeds of up to 160 km/h, Intercity+ offers amenities like
+          climate control, comfortable seating, and onboard refreshments, making
+          it a convenient and affordable choice for domestic travelers.
+        </p>
 
-    <button>
-      <a href="./trainsInfo/train6Ukr.html">More information</a>
-    </button>
+        <a class="more-info-link but" href="./trainsInfo/train6Ukr.html"
+          >More information</a
+        >
+      </li>
 
-    <h1>ICE</h1>
-    <p>
-      Germany’s Intercity Express (ICE) trains, run by Deutsche Bahn, are known
-      for their high-speed service reaching up to 300 km/h. Connecting major
-      German cities and international destinations, ICE trains offer modern
-      amenities like Wi-Fi, power outlets, and onboard dining, ensuring a
-      comfortable and premium travel experience across Europe.
-    </p>
+      <li class="new-trains-item ice">
+        <h1 class="new-train-name">ICE</h1>
+        <p class="new-train-par">
+          Germany’s Intercity Express (ICE) trains, run by Deutsche Bahn, are
+          known for their high-speed service reaching up to 300 km/h. Connecting
+          major German cities and international destinations, ICE trains offer
+          modern amenities like Wi-Fi, power outlets, and onboard dining,
+          ensuring a comfortable and premium travel experience across Europe.
+        </p>
 
-    <button>
-      <a href="./trainsInfo/train5ICE.html">More information</a>
-    </button>
+        <a class="more-info-link but" href="./trainsInfo/train5ICE.html"
+          >More information</a
+        >
+      </li>
 
-    <h1>Talgo</h1>
-    <p>
-      Kazakhstan’s Talgo high-speed trains, operated by Kazakhstan Temir Zholy
-      (KTZ), connect major cities like Almaty and Nur-Sultan. With speeds up to
-      200 km/h, these trains feature climate control, ergonomic seating, and
-      dining services, providing a comfortable and efficient option for both
-      business and leisure travel across Kazakhstan’s vast landscape.
-    </p>
+      <li class="new-trains-item talgo">
+        <h1 class="new-train-name">Talgo</h1>
+        <p class="new-train-par">
+          Kazakhstan’s Talgo high-speed trains, operated by Kazakhstan Temir
+          Zholy (KTZ), connect major cities like Almaty and Nur-Sultan. With
+          speeds up to 200 km/h, these trains feature climate control, ergonomic
+          seating, and dining services, providing a comfortable and efficient
+          option for both business and leisure travel across Kazakhstan’s vast
+          landscape.
+        </p>
 
-    <button>
-      <a href="./trainsInfo/train4Talgo.html">More information</a>
-    </button>
+        <a class="more-info-link but" href="./trainsInfo/train4Talgo.html"
+          >More information</a
+        >
+      </li>
+    </ul>
   </body>
 </html>
